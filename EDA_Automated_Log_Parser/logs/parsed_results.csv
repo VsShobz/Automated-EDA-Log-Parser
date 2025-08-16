@@ -1,6 +1,0 @@
-File,Type,Tool,Design,No. of Errors,Warnings,Coverage (%),Error Messages,No. of Setup Violations,No. of Hold Violations,Worst Setup Slack,Worst Hold Slack,Rank Score
-log4_sta_primetime.log,STA,PrimeTime,ALU,0.0,,,,1.0,1.0,-0.23,-0.05,2.0
-log5_sta_primetime.log,STA,PrimeTime,FIFO,0.0,,,,2.0,0.0,-0.5,0.1,2.0
-log2_sim_modelsim.log,Simulation,ModelSim,FIFO,1.0,2.0,70.0,"Error: FIFO underflow at time 80ns; Errors: 1, Warnings: 2",0.0,0.0,,,1.0
-log1_sim_vcs.log,Simulation,VCS,ALU,0.0,0.0,65.0,"Error-[DIV0] Division by zero detected in alu.v at time 45ns; Errors, 2 Warnings",0.0,0.0,,,0.0
-log3_sim_vcs.log,Simulation,VCS,Round Robin Arbiter,0.0,0.0,68.0,"Errors, 2 Warnings",0.0,0.0,,,0.0
